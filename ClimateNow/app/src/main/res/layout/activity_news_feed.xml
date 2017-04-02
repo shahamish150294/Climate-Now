@@ -10,9 +10,12 @@
     tools:openDrawer="start">
 
     <include
+        android:id="@+id/a"
         layout="@layout/app_bar_news_feed"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -22,5 +25,24 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_news_feed"
         app:menu="@menu/activity_news_feed_drawer" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:background="#125688"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>
