@@ -1,0 +1,21 @@
+{
+	"data": [{
+			"id": "1",
+			"category": ["water"],
+			"title": "Install only efficient water fixtures and appliances",
+			"content": ["Install efficient toilets, faucets and washing machines. Efficient fixtures and appliances can result in indoor water of 33 % to 50 % with payback periods under two years in many cases."],
+			"citations": ["Brandes, Oliver M.; Maas, Tony; Reynolds, Ellen - Thinking Beyond Pipes and Pumps: Top 10 Ways Communities Can Save Water and Money"],
+			"images": [""],
+			"link": ["https://dspace.library.uvic.ca/handle/1828/7961"]
+		},
+		{
+			"id": "2",
+			"category": ["water"],
+			"title": "Shower saver!",
+			"content": ["It is always better to shower than bathe. If the shower takes 5 min, it requires 100 L with a normal showerhead, but if it has a retrofit device, the water consumption will be only 50 L. These values are always less than the water consumption of a bath (250 L). The showerhead may be replaced to a retrofit device that reduces the initial consumption of 20 to 10 L / min.For instance, for a 5 min shower, the water savings could change from 100 to 50 L."],
+			"citations": ["Gutierrez - Escolar, Alberto and Castillo - Martinez, Ana and Gomez - Pulido, Jose M.and Gutierrez - Martinez, Jose - Maria and Garcia - Lopez, Eva;A New System for Households in Spain to Evaluate and Reduce Their Water Consumption;Water 6 "],
+			"images": [""],
+			"link": ["http://www.mdpi.com/2073-4441/6/1/181"]
+		}
+	]
+}
